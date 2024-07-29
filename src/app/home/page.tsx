@@ -11,7 +11,7 @@ const HomeLayout = () => {
             <Hero />
             <About />
             <Skills />
-            {/* <Services /> */}
+            <Services />
         </>
     );
 };

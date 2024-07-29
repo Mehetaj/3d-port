@@ -11,7 +11,7 @@ const Services = () => {
         <Container>
             <div>
                 <Title heading="Services" description="What I offer" />
-                <div className="my-20 grid grid-cols-3 gap-20">
+                <div className="my-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
                     <div className="shadow-lg p-12 rounded-xl">
                         <MdDeveloperBoard className="w-14 h-14" />
                         <h2 className="my-4 text-xl font-bold">Frontend Development with React JS or Next JS</h2>
