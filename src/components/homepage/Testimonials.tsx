@@ -1,4 +1,5 @@
 import { testimonials } from "@/consonents";
+import Image from "next/image";
 
   
   export default function Component() {
@@ -36,7 +37,7 @@ import { testimonials } from "@/consonents";
                       </p>
                       <p className="text-sm text-gray-400">{testimonial.designation}</p>
                     </div>
-                    <img
+                    <Image
                       src={testimonial.image}
                       alt={testimonial.name}
                       className="w-12 h-12 rounded-full object-cover"
