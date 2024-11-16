@@ -1,10 +1,13 @@
-import About from './About';
-import Contact from './Contact';
-import Hero from './Hero';
-import Portfolio from './Portfolio';
-import Services from './Services';
-import Skills from './Skills';
-import Testimonials from './Testimonials';
+import ContactMe from '@/components/shared/ContactMe';
+import About from '../../components/homepage/About';
+import Hero from '../../components/homepage/Hero';
+import Portfolio from '../../components/homepage/Portfolio';
+import Services from '../../components/homepage/Services';
+import Skills from '../../components/homepage/Skills';
+import Testimonials from '../../components/homepage/Testimonials';
+import GetNews from '@/components/shared/GetNews';
+import BlogPost from '@/components/homepage/BlogPost';
+import Experience from '@/components/homepage/Experience';
 
 
 
@@ -13,11 +16,15 @@ const HomeLayout = () => {
         <>
             <Hero />
             <About />
-            <Skills />
-            <Services />
+            {/* <Skills /> */}
+            {/* <Services /> */}
+            {/* <Experience /> */}
             <Portfolio />
             <Testimonials />
-            <Contact />
+
+            <ContactMe />
+            <BlogPost />
+            <GetNews />
         </>
     );
 };
