@@ -102,7 +102,7 @@ export default function Component() {
           </motion.div>
 
           {/* 3D Sphere */}
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -115,7 +115,7 @@ export default function Component() {
                 className="w-full h-full object-contain animate-float"
               />
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>
