@@ -21,7 +21,7 @@ export default function Component() {
                 className="bg-[#151030] p-8 rounded-2xl flex flex-col justify-between min-h-[320px]"
               >
                 {/* Quote mark */}
-                <div className="text-4xl text-white mb-4">"</div>
+                <div className="text-4xl text-white mb-4">&quot;</div>
 
                 {/* Testimonial text */}
                 <p className="text-white text-lg leading-relaxed flex-grow">
