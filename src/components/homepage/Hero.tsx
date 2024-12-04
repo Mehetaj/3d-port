@@ -42,6 +42,7 @@ export default function Component() {
   };
 
   return (
+    
     <div className="min-h-screen bg-black">
       {/* Background curves */}
       <div className="fixed inset-0 overflow-hidden">
@@ -92,11 +93,7 @@ export default function Component() {
             <div className="aspect-[16/9] rounded-lg overflow-hidden bg-gray-900/50 backdrop-blur-sm border border-white/10">
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-full max-w-md">
-                  <img
-                    src="/placeholder.svg?height=400&width=600"
-                    alt="Workspace Setup"
-                    className="w-full h-auto"
-                  />
+                  
                 </div>
               </div>
             </div>

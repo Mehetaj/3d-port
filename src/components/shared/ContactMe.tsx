@@ -109,7 +109,7 @@ export default function Component() {
             className="hidden lg:block"
           >
             <div className="relative w-full aspect-square">
-              <img
+              <Image
                 src="/placeholder.svg?height=500&width=500"
                 alt="3D Sphere"
                 className="w-full h-full object-contain animate-float"
